@@ -1,0 +1,30 @@
+ .form-signin .form-floating:focus-within {
+   z-index: 2;
+ }
+
+ .form-signin input[type="email"] {
+   margin-bottom: -1px;
+   border-bottom-right-radius: 0;
+   border-bottom-left-radius: 0;
+ }
+
+ .form-signin input[type="password"] {
+   margin-bottom: 10px;
+   border-top-left-radius: 0;
+   border-top-right-radius: 0;
+ }
+
+
+ .form-register input {
+    border-radius: 0;
+    border-buttom: -1px;
+ }
+
+ .form-register form input[name="name"]{
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+ }
+ .form-register form input[type="password"]{
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+ }
